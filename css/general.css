@@ -1,0 +1,56 @@
+@-moz-viewport { width: device-width; scale:1; }
+@-ms-viewport { width: device-width; scale:1; }
+@-o-viewport { width: device-width; scale:1; }
+@-webkit-viewport { width: device-width; scale:1; }
+@viewport { width: device-width; scale:1; }
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+.logo {
+	width: 30%;
+	length: 30%;
+}
+
+.grid {
+	overflow: hidden;
+}
+
+.unit {
+	float: left;
+}
+
+.unit-spacer {
+	padding: 8px;
+}
+
+@media only screen and (max-width: 38em) {
+
+	.unit-l-1-2 {
+		width: 33%;
+	}
+	
+	html {
+		font-size:10px;
+	}
+}
+
+@media only screen and (min-width: 38em) and (max-width: 60em) {
+
+	.unit-l-1-2 {
+		width: 33%;
+	}
+
+
+}
+
+@media only screen and (min-width: 60em) {
+
+	.unit-l-1-2 {
+		width: 33%;
+	}
+
+}
+
